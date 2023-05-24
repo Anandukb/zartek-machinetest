@@ -1,0 +1,69 @@
+.dish-details p{
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.dish-details{
+  max-width: 80%;
+}
+.component-container {
+  height: 100vh; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.spinner-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon-img img{
+  vertical-align: top !important;
+}
+.icon-img{
+  padding-top: 6px !important;
+}
+::-webkit-scrollbar {
+  height: 4px;
+  width: 5px;
+}
+ 
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: none;
+}
+.nav-underline .nav-item{
+  flex: 1;
+}
+.nav-underline .nav-link{
+  white-space: nowrap;
+}
+.nav-underline{
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+.header-tab{
+  position: fixed;
+    top: 0;
+    z-index: 999;
+    left: 0;
+    right: 0;
+    background-color: white;
+}
+.page-container{
+  padding-top: 115px;
+}
+.count-btn{
+  border-radius: 25px;
+  height: 30px;
+}
+.count-btn .count{
+  flex: 1;
+  display: flex;
+  padding: 0.5rem;
+  border-radius: 0;
+  align-items:center;
+  justify-content: center;
+}
